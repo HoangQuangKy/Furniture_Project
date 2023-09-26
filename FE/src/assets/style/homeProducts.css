@@ -1,0 +1,58 @@
+.home-products {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 100px;
+  max-width: 1600px;
+  padding: 10px 15px;
+}
+.show-change {
+  margin-bottom: 60px;
+  display: flex;
+  gap: 30px;
+  position: relative;
+}
+.show-btn {
+  display: block;
+  border: none;
+  background: transparent;
+  font-size: 21px;
+  position: relative;
+}
+.show-btn:hover {
+  color: black;
+}
+.highlight-show::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  top: 30px;
+  height: 3px;
+  left: 50%;
+  bottom: 0;
+  background-color: black;
+  transition: all ease-in-out 0.2s;
+}
+.active-btn::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  top: 30px;
+  height: 3px;
+  left: 0;
+  bottom: 0;
+  background-color: black;
+}
+.deactive-btn {
+  color: #868686;
+}
+.show-btn:hover .highlight-show::after {
+  width: 100%;
+  left: 0;
+}
+.show-home-products {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 30px;
+}

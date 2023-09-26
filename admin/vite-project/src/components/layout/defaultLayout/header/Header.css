@@ -1,0 +1,13 @@
+header{
+    background-color:#27374D ;
+}
+.header-start{
+    padding: 0px;
+}
+.bi-justify::before {
+    content: "\f44b";
+    color: white;
+}
+.header-start img{
+    height: 20px; 
+}

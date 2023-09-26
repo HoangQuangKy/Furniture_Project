@@ -1,0 +1,58 @@
+.category {
+  text-align: center;
+  width: 100%;
+  margin-bottom: 80px;
+}
+.category .scale-hover img {
+  border-radius: 0.5rem;
+  width: 100%;
+  transition: 0.5s all ease-in-out;
+}
+.category .scale-hover:hover img {
+  transform: scale3d(1.1, 1.1, 1.1);
+}
+.category .scale-container {
+  overflow: hidden;
+}
+
+.category h6 {
+  text-align: center;
+  margin-top: 17px;
+  font-weight: 500;
+  opacity: 0.8;
+}
+.category h6 a:hover {
+  font-weight: 700;
+  opacity: 1;
+  color: black;
+  border-bottom: 1px solid black;
+}
+
+.category .react-multi-carousel-track {
+  justify-content: center;
+}
+.category .react-multiple-carousel__arrow--left {
+  top: 40%;
+  left: 10px;
+}
+.category .react-multiple-carousel__arrow--right {
+  top: 40%;
+  right: 10px;
+}
+.category .react-multiple-carousel__arrow {
+  opacity: 0;
+  transition: all 0.2s;
+}
+.category:hover .react-multiple-carousel__arrow {
+  opacity: 1;
+}
+.category .slide-category-container {
+  overflow: hidden;
+}
+.category .slide-image {
+  overflow: hidden;
+}
+
+.category .carousel-item-padding-15-px {
+  padding: 15px;
+}
